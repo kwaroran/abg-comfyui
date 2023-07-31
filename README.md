@@ -1,5 +1,5 @@
 # abg-comfyui
-A Anime Background Remover node for comfyui, port of [AGB extention in automatic1111](https://github.com/KutsuyaYuki/ABG_extension/tree/main)
+A Anime Background Remover node for comfyui, based on [this hf space](https://huggingface.co/spaces/skytnt/anime-remove-background), works same as [AGB extention in automatic1111](https://github.com/KutsuyaYuki/ABG_extension/tree/main)
 
 
 # Installation
