@@ -35,7 +35,7 @@ def rmbg_fn(img):
     mask = mask.repeat(3, axis=2)
     return img
 
-class RemoveImageBackgroundARB:
+class RemoveImageBackgroundabg:
     def __init__(self):
         pass
     
@@ -48,10 +48,10 @@ class RemoveImageBackgroundARB:
         }
 
     RETURN_TYPES = ("IMAGE",)
-    FUNCTION = "agb_remover"
+    FUNCTION = "abg_remover"
     CATEGORY = "image"
 
-    def agb_remover(self, image:torch.Tensor):
+    def abg_remover(self, image:torch.Tensor):
         npa = image2nparray(image)
         print(npa.ndim)
         rmb = rmbg_fn(npa)
@@ -76,5 +76,5 @@ def nparray2image(narray:np.array):
     return tensor
 
 NODE_CLASS_MAPPINGS = {
-    "Remove Image Background (AGB)": RemoveImageBackgroundARB
+    "Remove Image Background (abg)": RemoveImageBackgroundabg
 }
