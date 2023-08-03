@@ -1,5 +1,5 @@
 # abg-comfyui
-A Anime Background Remover node for comfyui, based on [this hf space](https://huggingface.co/spaces/skytnt/anime-remove-background), works same as [AGB extention in automatic1111](https://github.com/KutsuyaYuki/ABG_extension/tree/main)
+A Anime Background Remover node for comfyui, based on [this hf space](https://huggingface.co/spaces/skytnt/anime-remove-background), works same as [ABG extention in automatic1111](https://github.com/KutsuyaYuki/ABG_extension/tree/main)
 
 
 # Installation
@@ -13,4 +13,4 @@ git clone https://github.com/Jcd1230/rembg-comfyui-node.git
 pip install -r requirements.txt
 ```
 # Usage
-Create a "Remove Image Background (ARB)" node, and connect the image to input, and it would remove the image's background.
+Create a "Remove Image Background (ABG)" node, and connect the image to input, and it would remove the image's background.
